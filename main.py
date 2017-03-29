@@ -124,8 +124,7 @@ if __name__ == "__main__":
     stm = SyncthingManager()
     stm.create_folder()
 
-    # TODO URGENT: DONT COMMIT THIS ID
-    # Replace with env lookup
+    # Not working yet
     stm.add_device(os.environ["ST_DEVICE_ID"])
 
     move_database(server_data_dir, st_data_dir)
